@@ -1,6 +1,8 @@
 
 function Scooter(year, color, model) {
-  console.log(this);
+  this.year = year
+  this.color = color
+  this.model = model
 }
 
 
